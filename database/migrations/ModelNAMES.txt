@@ -1,0 +1,33 @@
+php artisan   make:model Models\Users -c
+php artisan   make:model Models\Nationalities -c
+php artisan   make:model Models\Categories -c
+php artisan   make:model Models\Departments -c
+php artisan   make:model Models\Disciplines -c
+php artisan   make:model Models\Jobtypes -c
+php artisan   make:model Models\Specialities -c
+
+php artisan   make:model Models\Medicalstaff -c
+php artisan   make:model Models\Qualificationtypes -c
+php artisan   make:model Models\Qualifications -c
+php artisan   make:model Models\Trainingcourses -c
+php artisan   make:model Models\Experiences -c
+
+php artisan   make:model Models\Templevalumst -c
+php artisan   make:model Models\Templevaludet -c
+php artisan   make:model Models\Staffevaluation -c
+php artisan   make:model Models\Templcatglink -c
+
+
+
+
+php artisan make:migration create_nationalities_table --create=nationalities 
+php artisan make:migration create_categories_table --create=categories 
+php artisan make:migration create_departments_table --create=departments 
+php artisan make:migration create_disciplines_table --create=disciplines 
+php artisan make:migration create_jobtypes_table --create=jobtypes 
+php artisan make:migration create_specialities_table --create=specialities 
+php artisan make:migration create_medicalstaff_table --create=medicalstaff 
+php artisan make:migration create_qualificationtypes_table --create=qualificationtypes 
+php artisan make:migration create_qualifications_table --create=qualifications 
+php artisan make:migration create_trainingcourses_table --create=trainingcourses 
+php artisan make:migration create_experiences_table --create=experiences 
