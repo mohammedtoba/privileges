@@ -18,8 +18,6 @@
     <!-- end of plugin styles -->
     <!--Page level styles-->
     <link type="text/css" rel="stylesheet" href="{{asset('assets/css/pages/tables.css')}}" />
-
-
     <!--End of page level styles-->
 @stop
 @section('content')
